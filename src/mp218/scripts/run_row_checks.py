@@ -5,4 +5,4 @@ train = pd.read_csv("data/raw/train.csv")
 print("duplicates:", duplicate_rows(train))
 for row in stuck_sensor(train):
     print(row)
-print(target_typos(train))
+print(target_typos(train))  
