@@ -11,3 +11,5 @@ data/raw/*.csv
 
 # Local DVC cache
 .dvc/cache/
+mlruns/
+mlartifacts/

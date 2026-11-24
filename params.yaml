@@ -1,0 +1,12 @@
+data:
+  raw_train: data/raw/train.csv
+  later: data/raw/later.csv
+  holdout: data/raw/holdout_features.csv
+model:
+  seed: 42
+mlflow:
+  tracking_uri: sqlite:///mlflow.db
+  experiment: mp218-delay
+  model_name: mp218-delay-model
+export:
+  model_path: models/model.joblib
